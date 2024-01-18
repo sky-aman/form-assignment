@@ -13,13 +13,13 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/stories" className="hover:underline">
                 Stories
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
-                About Us
+              <a href="/create-story" className="hover:underline">
+                Create Story
               </a>
             </li>
             <li>
