@@ -8,8 +8,12 @@ import { useState } from "react";
 export default function CreateStory() {
   const [story, setStory] = useState("");
   const onGenerateStory = (formData: FormData) => {
-    const data = {};
-    formData.forEach((val, key) => (data[key] = val));
+    const data: { [key: string]: string } = {};
+    formData.forEach((val, key) => {
+      const formKey = key as string;
+      const formVal = val as string;
+      data[formKey] = formVal;
+    });
 
     setStory(generateStory(data));
   };
