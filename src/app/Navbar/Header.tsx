@@ -8,7 +8,7 @@ export default function Header() {
           </a>
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/" className="hover:underline">
                 Home
               </a>
             </li>
