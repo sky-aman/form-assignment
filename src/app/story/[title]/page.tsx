@@ -17,7 +17,9 @@ export default function Story({
           No Story Found
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-          Sorry, we couldn't find the story with the title "{decodeTitle}".
+          Sorry, we couldn&apos;t find the story with the title &quot;
+          {decodeTitle}
+          &quot;.
         </p>
         <a
           href="/"
