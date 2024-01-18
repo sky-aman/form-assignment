@@ -17,7 +17,7 @@ export default function Story({ story }: { story: Story }) {
       <h3 className="text-xl font-semibold mb-2">{story.title}</h3>
       <p className="text-gray-600">{story.description}</p>
       <Link
-        href={`/story/title/${story.title}`}
+        href={`/story/${story.title}`}
         className="mt-4 inline-block text-blue-500 hover:underline"
       >
         Read More

@@ -9,7 +9,7 @@ export default function Home() {
           Where imaginations come to life!
         </p>
         <Link
-          href="/story"
+          href="/stories"
           className="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
         >
           Explore Stories
