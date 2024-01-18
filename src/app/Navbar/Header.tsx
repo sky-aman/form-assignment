@@ -1,31 +1,33 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <nav className="bg-blue-500 p-4 text-white">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold">
+          <Link href="#" className="text-2xl font-bold">
             Kids Storyland
-          </a>
+          </Link>
           <ul className="flex space-x-4">
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/stories" className="hover:underline">
+              <Link href="/story" className="hover:underline">
                 Stories
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/create-story" className="hover:underline">
+              <Link href="/create-story" className="hover:underline">
                 Create Story
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link href="#" className="hover:underline">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

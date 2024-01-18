@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <section className="bg-yellow-200 py-20">
@@ -6,12 +8,12 @@ export default function Home() {
         <p className="text-lg text-gray-700">
           Where imaginations come to life!
         </p>
-        <a
-          href="/stories"
+        <Link
+          href="/story"
           className="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
         >
           Explore Stories
-        </a>
+        </Link>
       </div>
     </section>
   );
