@@ -1,9 +1,9 @@
 export interface Story {
   id: React.Key;
-  title: String;
-  description: String;
-  content: String;
-  image: String;
+  title: string;
+  description: string;
+  content: string;
+  image: string;
 }
 
 export const stories: Story[] = [
